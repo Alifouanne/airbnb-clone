@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Airbnb Clone
 
-## Getting Started
+## Description
 
-First, run the development server:
+Welcome to our Airbnb clone project! This project aims to replicate the core functionalities of the popular Airbnb platform. Built using Next.js 14.1, this application allows users to list properties for rent, add images, descriptions, prices, locations, and guest capacities. Users can also make reservations for properties, view their favorite homes, and manage their reservations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 14.1:** Next.js is a React framework that enables server-side rendering and generates static websites for better performance.
+- **Kinde:** Kinde is used for authentication, providing secure access to user accounts.
+- **Tailwind CSS:** Tailwind CSS is a utility-first CSS framework that helps in styling the components and layouts.
+- **Shade/cn:** Shade/cn provides pre-built components for styling, enhancing the user interface of the application.
+- **Supabase:** Supabase is utilized for database management and storage, ensuring data integrity and reliability.
+- **Prisma:** Prisma is used for creating and managing database tables, offering a seamless ORM experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **User Authentication:** Users can register and login to access the application, ensuring secure access to their accounts.
+- **Property Listing:** Users can list properties for rent, providing details such as images, descriptions, prices, locations, and guest capacities.
+- **Reservation Functionality:** Users can make reservations for properties, specifying the dates and guest counts.
+- **Favorites Page:** Users can save their preferred homes to a favorites page for easy access and reference.
+- **Reservations Page:** Users can manage their reservations, view booking details, and make changes if necessary.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `git clone <repository-url>`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Register or login to access the application.
+2. Explore the available properties and make reservations as needed.
+3. Manage your reservations and view your favorite homes through the provided pages.
 
-## Deploy on Vercel
+## Website
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out the [Airbnb Clone](#) in action!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+Thank you for considering our Airbnb clone project! We hope you enjoy using it as much as we enjoyed building it. If you have any feedback or suggestions, feel free to reach out to us. Happy renting!
